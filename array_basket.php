@@ -69,12 +69,10 @@
       <?php echo $value['squadra_casa'] ?> - <?php echo $value['squadra_ospite'] ?> |
        <?php echo $value['punti_squadra_casa'] ?> - <?php echo $value['punti_squadra_ospite'] ?>
     </h1>
-  <?php } else { ?>
+    <?php } else { ?>
     <h1>
       <?php echo $key ?>:
       <?php echo $value['squadra_casa'] ?>   -
       <?php echo $value['squadra_ospite'] ?> | partita rinviata
     </h1>
   <?php } } } ?>
-
-<?php
